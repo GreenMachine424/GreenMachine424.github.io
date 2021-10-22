@@ -1,0 +1,100 @@
+.homepageNav {
+    font-size: 20px;
+    height: 45px;
+    display:flex;
+    background-color: black;
+    width: 100%;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin-bottom:50px !important;
+}
+.homepageNavButton {
+    height:inherit;
+    display:flex;
+    border-color: black;
+    background-color:black;
+    font-size:inherit;
+    color:white;
+    padding-top:10px;
+    width:auto;
+    margin-left:5px;
+    border-radius: 5px;
+}
+#stick {
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-color:rgb(255, 255, 255);
+}
+.homeImage {
+    width: 20px;
+    height: 20px;
+    padding-left:6px;
+    padding-top:12px;
+}
+#inputButton {
+    height:25px;
+    text-align:center;
+    font-size:15px;
+    padding-top:3;
+    margin: 0 auto;
+}
+.row1Contain {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height:auto;
+}
+form {
+    padding-top:10px;
+    margin-left: 5px;
+    flex-direction: row;
+    display: flex;
+}
+input {
+    height: 25px;
+}
+.row2Contain {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height:auto;
+    margin-top: 12px;
+}
+.flashBox {
+    width: 25%;
+    height:inherit;
+    border:solid 3px black;
+    margin-left: 5px;
+    margin-right:5px;
+    border-radius:8px;
+}
+.flashBox:hover {
+    animation-name: boxChange;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+@keyframes boxChange {
+    100% {
+        background: #bababa;
+    }
+}
+.homepageNavButton:hover {
+    animation-name: buttonChange;
+    animation-duration:250ms;
+    animation-fill-mode: forwards;
+}
+@keyframes buttonChange {
+    100% {
+        background: grey;
+    }
+}
+h2 {
+    text-align: center;
+}
