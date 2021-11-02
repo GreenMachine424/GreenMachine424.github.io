@@ -91,7 +91,7 @@ input {
     animation-fill-mode: forwards;
 }
 .navSearchInput{
-
+    padding-top: -10px;
 }
 @keyframes buttonChange {
     100% {
