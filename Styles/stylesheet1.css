@@ -15,7 +15,7 @@
     background-color:black;
     font-size:inherit;
     color:white;
-    padding-top:10px;
+    padding-top:-15px;
     width:auto;
     margin-left:5px;
     border-radius: 5px;
@@ -89,6 +89,9 @@ input {
     animation-name: buttonChange;
     animation-duration:250ms;
     animation-fill-mode: forwards;
+}
+.navSearchInput{
+
 }
 @keyframes buttonChange {
     100% {
