@@ -18,7 +18,7 @@
     width:auto;
     margin-left:5px;
     border-radius: 5px;
-    padding-top: 13px;
+    padding-top: 10px;
 }
 #stick {
     position:fixed;
@@ -88,9 +88,6 @@ input {
     animation-name: buttonChange;
     animation-duration:250ms;
     animation-fill-mode: forwards;
-}
-.navSearchInput{
-
 }
 @keyframes buttonChange {
     100% {
