@@ -18,7 +18,7 @@
     width:auto;
     margin-left:5px;
     border-radius: 5px;
-    padding-top: 3px;
+    padding-top: 13px;
 }
 #stick {
     position:fixed;
@@ -90,7 +90,7 @@ input {
     animation-fill-mode: forwards;
 }
 .navSearchInput{
-    padding-top: -10px;
+
 }
 @keyframes buttonChange {
     100% {
